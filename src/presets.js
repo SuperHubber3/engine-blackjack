@@ -35,11 +35,11 @@ export const getRules = ({
   decks = 1,
   standOnSoft17 = true,
   double = 'any',
-  split = true,
-  doubleAfterSplit = true,
+  split = false,
+  doubleAfterSplit = false,
   surrender = true,
-  insurance = true,
-  showdownAfterAceSplit = true
+  insurance = false,
+  showdownAfterAceSplit = false
 }: Rule) => {
   return {
     decks: decks || 1,
