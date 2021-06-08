@@ -1,6 +1,6 @@
 {
   "name": "engine-blackjack-tryst",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NodeJs, single player, blackjack engine",
   "main": "build/index.js",
   "types": "types/index.d.ts",
