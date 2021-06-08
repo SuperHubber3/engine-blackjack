@@ -33,7 +33,7 @@ export const getDefaultSideBets = (active: boolean = false) : SideBets => {
 
 export const getRules = ({
   decks = 1,
-  standOnSoft17 = true,
+  standOnSoft17 = false,
   double = 'any',
   split = false,
   doubleAfterSplit = false,
